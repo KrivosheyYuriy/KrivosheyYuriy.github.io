@@ -9,7 +9,7 @@ header {
 }
 
 #navLogo {
-    display: flex;
+    min-height: 70px;
 }
 
 header img {
@@ -37,7 +37,6 @@ nav {
 
 nav a {
     float: left;
-    display: block;
     color: midnightblue;
     text-align: center;
     text-decoration: none;
@@ -53,8 +52,6 @@ body {
 .content {
     margin-left: auto;
     margin-right: auto;
-    display: grid;
-    flex-wrap: wrap;
     justify-content: center;
     color: indigo;
     background-color: blanchedalmond;
@@ -69,7 +66,6 @@ header h1{
 }
 
 .content ul {
-    display: grid;
     align-items: center;
 }
 
@@ -87,6 +83,7 @@ table {
 
 th, td {
     border: 2px solid #69c;
+    text-align: center;
 }
 
 tr:nth-child(odd) {
@@ -103,7 +100,7 @@ footer {
     width: 100%;
     color: darkblue;
     background-color: #ffdead;
-    padding: 20px;
+    min-height: 75px;
 }
 
 form {
