@@ -4,6 +4,7 @@
   <meta charset="UTF-8">
   <title>Задание1</title>
   <link href="/lesson3/css/style.css" rel="stylesheet">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 <body>
 <header>
@@ -19,51 +20,53 @@
 </header>
 
 <div class="content">
-  <table>
-    <caption id="table1Caption"><b>Название таблицы</b></caption>
+  <div style="overflow-x: auto">
+    <table>
+      <caption id="table1Caption"><b>Название таблицы</b></caption>
 
-    <tr>
-      <th>Название столбца 1</th>
-      <th>Название столбца 2</th>
-      <th>Название столбца 3</th>
-      <th>Название столбца 4</th>
-      <th>Название столбца 5</th>
-    </tr>
+      <tr>
+        <th>Название столбца 1</th>
+        <th>Название столбца 2</th>
+        <th>Название столбца 3</th>
+        <th>Название столбца 4</th>
+        <th>Название столбца 5</th>
+      </tr>
 
-    <tr>
-      <td>Клетка 1</td>
-      <td colspan="3">Клетка 2</td>
-      <td>Клетка 3</td>
-    </tr>
+      <tr>
+        <td>Клетка 1</td>
+        <td colspan="3">Клетка 2</td>
+        <td>Клетка 3</td>
+      </tr>
 
-    <tr>
-      <td rowspan="3">3 строки</td>
-      <td colspan="4">4 столбца</td>
-    </tr>
+      <tr>
+        <td rowspan="3">3 строки</td>
+        <td colspan="4">4 столбца</td>
+      </tr>
 
-    <tr>
-      <td>обычная клетка</td>
-      <td>еще одна клетка</td>
-      <td colspan="2" rowspan="2">2 строки и 2 столбца</td>
-    </tr>
+      <tr>
+        <td>обычная клетка</td>
+        <td>еще одна клетка</td>
+        <td colspan="2" rowspan="2">2 строки и 2 столбца</td>
+      </tr>
 
-    <tr>
-      <td colspan="2">зажата между двумя</td>
-    </tr>
+      <tr>
+        <td colspan="2">зажата между двумя</td>
+      </tr>
 
-    <tr>
-      <td colspan="2">еще какая-то ячейка</td>
-      <td rowspan="2">на 2 строки</td>
-      <td colspan="2">еще какая-то ячейка</td>
-    </tr>
+      <tr>
+        <td colspan="2">еще какая-то ячейка</td>
+        <td rowspan="2">на 2 строки</td>
+        <td colspan="2">еще какая-то ячейка</td>
+      </tr>
 
-    <tr>
-      <td>обычная клетка</td>
-      <td>обычная клетка</td>
-      <td>обычная клетка</td>
-      <td>обычная клетка</td>
-    </tr>
-  </table>
+      <tr>
+        <td>обычная клетка</td>
+        <td>обычная клетка</td>
+        <td>обычная клетка</td>
+        <td>обычная клетка</td>
+      </tr>
+    </table>
+  </div>
 
   <ul>
     <li>
