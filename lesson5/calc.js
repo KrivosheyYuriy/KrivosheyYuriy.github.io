@@ -19,7 +19,7 @@ function click1(event) {
     return false;
 }
 
-window.addEventListener("DOMContentLoaded", function (event) {
+window.addEventListener("DOMContentLoaded", function () {
     let b = document.getElementById("button");
     b.addEventListener("click", click1);
 });
